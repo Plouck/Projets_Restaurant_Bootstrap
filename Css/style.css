@@ -4,5 +4,6 @@ table, th, td {
 .container {
   background-image: url(../Images/Logo_Vache.png);
   background-position:center center;
+  background-size: 10%;
+  background-repeat: no-repeat;
 }
-Logo_Vache 
