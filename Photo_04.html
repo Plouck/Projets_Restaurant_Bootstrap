@@ -7,7 +7,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <title>Carte</title>
+    <title>Photo</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-md navbar-dark bg-dark">
@@ -18,10 +18,10 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Carte <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="Carte.html">Carte <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="Photo.html">Photo</a>
+            <a class="nav-link" href="#">Photo</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="Restaurants.html">Restaurants</a>
@@ -33,38 +33,33 @@
       </div>
     </nav>
 
-    <h3>Les entrées</h3>
+    <div class="row">
+     <div class="col-md-4">
+       <div class="thumbnail">
+         <a href="Photo_10.jpg">
+           <img src="Photo_10.jpg" alt="Burger" style="width:100%">
+           <div class="caption">
+           </div>
+         </a>
+       </div>
+     </div>
 
-    <ul class="list-group">
-      <li class="list-group-item d-flex justify-content-between align-items-center">
-        Tartare de boeuf à la thaï
-        <span class="badge badge-primary badge-pill">14.30 €</span>
-      </li>
-      <li class="list-group-item d-flex justify-content-between align-items-center">
-        Tartare de boeuf à la française
-        <span class="badge badge-primary badge-pill">15.50 €</span>
-      </li>
-      <li class="list-group-item d-flex justify-content-between align-items-center">
-        L'entrée du chef
-        <span class="badge badge-primary badge-pill">21.90 €</span>
-      </li>
-    </ul>
+   </div>
 
-    <h3>Les Burgers</h3>
-    <ul class="list-group">
-      <li class="list-group-item d-flex justify-content-between align-items-center">
-        Le Simplet
-        <span class="badge badge-primary badge-pill">10.90 €</span>
-      </li>
-      <li class="list-group-item d-flex justify-content-between align-items-center">
-        Le Chesse Of Burger
-        <span class="badge badge-primary badge-pill">11.90 €</span>
-      </li>
-      <li class="list-group-item d-flex justify-content-between align-items-center">
-        Le Royal
-        <span class="badge badge-primary badge-pill">13.40 €</span>
-      </li>
-    </ul>
+
+   <nav aria-label="...">
+     <ul class="pagination">
+       <li class="page-item">
+         <a class="page-link" href="Photo_03.html">Previous</a></li>
+       </li>
+       <li class="page-item"><a class="page-link" href="Photo_02.html">2</a></li>
+       <li class="page-item"><a class="page-link" href="Photo_03.html">3</a></li>
+       <li class="page-item active"><a class="page-link" href="#">4</a></li>
+       <li class="page-item disabled">
+         <span class="page-link">Next</span>
+       </li>
+     </ul>
+   </nav>
 
   </body>
 </html>
